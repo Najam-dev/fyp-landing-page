@@ -1,0 +1,729 @@
+/*-----------------------------------------
+	Base
+-------------------------------------------*/
+body *[data-anim=elem] {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1.5s cubic-bezier(0.215, 0.61, 0.355, 1), transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+body *[data-anim=fadeIn] {
+  opacity: 0;
+  transition: opacity 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+body *[data-anim=text] {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1.5s cubic-bezier(0.215, 0.61, 0.355, 1), transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+body *[data-anim=image] {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: border 0.2s ease-in, box-shadow 0.4s ease-in, opacity 1.5s cubic-bezier(0.215, 0.61, 0.355, 1), transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+@media screen and (min-width: 769px) {
+  body *[data-anim=image] {
+    transform: translateY(60px) scale(1.05);
+  }
+}
+body .is-anim[data-anim=elem] {
+  opacity: 1;
+  transform: translateY(0);
+}
+body .is-anim[data-anim=fadeIn] {
+  opacity: 1;
+}
+body .is-anim[data-anim=text] {
+  opacity: 1;
+  transform: translateY(0);
+}
+body .is-anim[data-anim=image] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+body .is-delay-01 {
+  transition-delay: 0.2s !important;
+}
+body .is-delay-02 {
+  transition-delay: 0.4s !important;
+}
+body .is-delay-03 {
+  transition-delay: 0.6s !important;
+}
+body .is-delay-04 {
+  transition-delay: 0.8s !important;
+}
+body .is-delay-05 {
+  transition-delay: 1s !important;
+}
+body .is-delay-06 {
+  transition-delay: 1.2s !important;
+}
+body .is-delay-07 {
+  transition-delay: 1.4s !important;
+}
+body .is-delay-08 {
+  transition-delay: 1.6s !important;
+}
+body .is-delay-09 {
+  transition-delay: 1.8s !important;
+}
+body .is-delay-10 {
+  transition-delay: 2s !important;
+}
+body .is-delay-gnav-01 {
+  transition-delay: 0.1s !important;
+}
+body .is-delay-gnav-02 {
+  transition-delay: 0.2s !important;
+}
+body .is-delay-gnav-03 {
+  transition-delay: 0.3s !important;
+}
+body .is-delay-gnav-04 {
+  transition-delay: 0.4s !important;
+}
+body .is-delay-gnav-05 {
+  transition-delay: 0.5s !important;
+}
+body .is-delay-gnav-06 {
+  transition-delay: 0.6s !important;
+}
+body .is-delay-gnav-07 {
+  transition-delay: 0.7s !important;
+}
+body .is-delay-gnav-08 {
+  transition-delay: 0.8s !important;
+}
+body .is-delay-gnav-09 {
+  transition-delay: 0.9s !important;
+}
+body .is-delay-gnav-10 {
+  transition-delay: 1s !important;
+}
+body.ua-ie {
+  overflow-x: hidden;
+}
+
+/*-----------------------------------------
+	Layout
+-------------------------------------------*/
+.page-header .gnav-btn {
+  opacity: 1;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  z-index: 5;
+}
+@media screen and (min-width: 769px) {
+  .page-header .gnav-btn {
+    transition: all 0.2s ease-in 0.2s;
+  }
+}
+.page-header .gnav-btn-ic-item {
+  transition: visibility 0.2s ease-in;
+}
+.page-header .gnav-btn-ic::before, .page-header .gnav-btn-ic::after {
+  position: relative;
+  transition: transform 0.2s ease-in;
+}
+.page-header .gnav {
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  visibility: hidden;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .page-header .gnav {
+    right: -50vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-header .gnav {
+    left: -180px;
+  }
+}
+.page-header .gnav-logo {
+  opacity: 0;
+  transform: translatex(30px);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  visibility: hidden;
+}
+@media screen and (min-width: 769px) {
+  .page-header .gnav-logo {
+    transform: translatex(-30px);
+  }
+}
+.page-header .gnav-list {
+  visibility: hidden;
+}
+.page-header .gnav-list-item {
+  opacity: 0;
+  transform: translatex(30px);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  visibility: hidden;
+}
+@media screen and (min-width: 769px) {
+  .page-header .gnav-list-item {
+    transform: translatex(-30px);
+  }
+}
+.page-header .buy-btn {
+  transition: bottom 0.05s ease-in, opacity 0.2s ease-in, right 0.2s ease-in, z-index 0.2s ease-in;
+}
+.page-header .buy-btn.is-hide {
+  opacity: 0;
+  z-index: -1;
+}
+.page-header .buy-btn.is-fixed {
+  bottom: 24vw;
+}
+@media screen and (min-width: 769px) {
+  .page-header .buy-btn.is-fixed {
+    bottom: 6vw;
+  }
+}
+.page-header .buy-btn.no-cookie .ver-none {
+  display: block;
+}
+.page-header .buy-btn.no-cookie .ver-d {
+  display: none;
+}
+.page-header .buy-btn.no-cookie .ver-z {
+  display: none;
+}
+.page-header .buy-btn-appstore.is-fixed {
+  bottom: 0;
+}
+@media screen and (min-width: 769px) {
+  .page-header .buy-btn-appstore.is-fixed {
+    bottom: auto;
+  }
+}
+.page-header::before {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  content: "";
+  display: block;
+  height: 100%;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out 0.2s;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  .page-header::before {
+    right: -50vw;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-header::before {
+    left: -180px;
+    width: 180px;
+  }
+}
+.page-header.is-active::before {
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active::before {
+    right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-header.is-active::before {
+    left: 0;
+  }
+}
+.page-header.is-active .gnav-btn {
+  right: 54%;
+}
+@media screen and (min-width: 769px) {
+  .page-header.is-active .gnav-btn {
+    opacity: 0;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active .gnav-btn-ic-item {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active .gnav-btn-ic::before {
+    top: 2vw;
+    transform: rotate(45deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active .gnav-btn-ic::after {
+    bottom: 2vw;
+    transform: rotate(-45deg);
+  }
+}
+.page-header.is-active .gnav {
+  visibility: visible;
+  z-index: 8;
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active .gnav {
+    right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-header.is-active .gnav {
+    left: 0;
+  }
+}
+.page-header.is-active .gnav-logo {
+  opacity: 1;
+  transform: translatex(0);
+  visibility: visible;
+}
+.page-header.is-active .gnav-list {
+  visibility: visible;
+}
+.page-header.is-active .gnav-list-item {
+  opacity: 1;
+  transform: translatex(0);
+  visibility: visible;
+}
+@media screen and (max-width: 768px) {
+  .page-header.is-active .buy-btn {
+    bottom: 10vw;
+    right: 10vw;
+  }
+}
+.page-header.is-disable::before {
+  transition: none;
+}
+.page-header.is-disable .gnav-logo {
+  transition: none;
+}
+.page-header.is-disable .gnav-list-item {
+  transition: none;
+}
+
+/*-----------------------------------------
+	Module
+-------------------------------------------*/
+/*----- pageTtop -----*/
+.page-top .page-header {
+  opacity: 0;
+  transition: opacity 2s cubic-bezier(0.76, 0, 0.24, 1) 2s;
+}
+.page-top .effect-bg-img {
+  opacity: 1;
+  transition: opacity 0.05s cubic-bezier(0.64, 0, 0.78, 0) 0.5s;
+}
+.page-top .effect-bg-object {
+  bottom: -200%;
+  right: -150%;
+  transform: rotateZ(0deg) scale(2);
+  transform-origin: 50% 50%;
+  transition: all 0.4s cubic-bezier(0.61, 1, 0.88, 1) 0.55s;
+}
+.page-top .effect-bg-eye {
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.64, 0, 0.78, 0) 0.55s;
+}
+@media screen and (max-width: 768px) {
+  .page-top .effect-bg-eye {
+    display: none;
+  }
+}
+.page-top .effect-bg-video {
+  opacity: 0;
+  transition: opacity 1.2s cubic-bezier(0.55, 0, 1, 0.45) 1.35s;
+}
+.page-top .effect-bg canvas {
+  opacity: 0;
+  transition: opacity 2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s;
+}
+.page-top .effect-bg::before {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+.page-top .effect-bg::after {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.page-top.is-fvFx .page-header {
+  opacity: 1;
+}
+.page-top.is-fvFx .effect-bg-img {
+  opacity: 0.1;
+}
+.page-top.is-fvFx .effect-bg-object {
+  bottom: 200%;
+  right: 150%;
+  transform: rotateZ(360deg) scale(2);
+}
+.page-top.is-fvFx .effect-bg-eye {
+  opacity: 1;
+}
+.page-top.is-fvFx .effect-bg-video {
+  opacity: 1;
+}
+.page-top.is-fvFx .effect-bg canvas {
+  opacity: 1;
+}
+.page-top.is-fvFx .effect-bg canvas.is-hide {
+  opacity: 0;
+}
+.page-top.is-scrFx .effect-bg::before {
+  opacity: 1;
+}
+.page-top.is-scrFx .effect-bg.is-active::before {
+  opacity: 0;
+}
+.page-top.is-scrFx .effect-bg.is-active .effect-bg-chara::before, .page-top.is-scrFx .effect-bg.is-active .effect-bg-chara::after {
+  opacity: 0;
+}
+.page-top.is-scrFx .effect-bg.is-active::after {
+  opacity: 1;
+}
+.page-top.is-visit .page-loadding {
+  display: none;
+}
+.page-top.is-visit .page-header {
+  opacity: 1;
+  transition: none;
+}
+.page-top.is-visit .effect-bg-img {
+  display: none;
+}
+.page-top.is-visit .effect-bg-object {
+  display: none;
+}
+.page-top.is-visit .effect-bg-eye {
+  display: none;
+}
+.page-top.is-visit .effect-bg-video {
+  opacity: 1;
+  transition: none;
+}
+.page-top.is-visit .effect-bg canvas {
+  opacity: 1;
+}
+.page-top.is-visit .effect-bg canvas.is-hide {
+  opacity: 0;
+}
+
+/*---- CSS Hack ----*/
+.ua-ie .text-grad-line {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: #E3DDA4;
+  filter: initial;
+}
+.ua-ie .text-grad.fc-silver .text-grad-line {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: #767976;
+  filter: initial;
+}
+
+/*-----------------------------------------
+	Theme/TOP
+-------------------------------------------*/
+/*----- firstview -----*/
+.page-top .sec#firstview {
+  opacity: 0;
+  transition: opacity 2s cubic-bezier(0.76, 0, 0.24, 1) 2s;
+}
+.page-top .sec#firstview .scroll-down {
+  transition: opacity 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#topics .topics-bnr,
+  .page-top .sec#topics .reverse-btn,
+  .page-top .sec#topics .singleShot-btn {
+    opacity: 0;
+    transition: opacity 2s cubic-bezier(0.76, 0, 0.24, 1) 2s;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#topics .topics-bnr {
+    transform: translateY(0);
+  }
+}
+.page-top.is-fvFx .sec#firstview {
+  opacity: 1;
+}
+@media screen and (min-width: 769px) {
+  .page-top.is-fvFx .sec#topics .topics-bnr,
+  .page-top.is-fvFx .sec#topics .reverse-btn,
+  .page-top.is-fvFx .sec#topics .singleShot-btn {
+    opacity: 1;
+  }
+}
+.page-top.is-scrFixedFx .sec#firstview .scroll-down {
+  opacity: 0;
+  pointer-events: none;
+}
+.page-top.is-visit .sec#firstview {
+  opacity: 1;
+  transition: none;
+}
+@media screen and (min-width: 769px) {
+  .page-top.is-visit .sec#topics .topics-bnr,
+  .page-top.is-visit .sec#topics .reverse-btn,
+  .page-top.is-visit .sec#topics .singleShot-btn {
+    opacity: 1;
+    transition: none;
+  }
+}
+
+/*----- trailer -----*/
+.page-top .sec#trailer.is-notSlider .sec-inner {
+  padding: 0 4vw;
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#trailer.is-notSlider .sec-inner {
+    padding: 0 4vw;
+  }
+}
+.page-top .sec#trailer.is-notSlider .slide-list {
+  opacity: 1;
+}
+.page-top .sec#trailer.is-notSlider .slide-list .slide {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#trailer.is-notSlider .slide-list .slide {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-top .sec#trailer.is-notSlider .slide-list .slide:not(:last-child) {
+    margin-bottom: 6vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#trailer.is-notSlider .slide-list .slide:not(:last-child) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-top .sec#trailer.is-notSlider.is-single .slide-list .slide {
+    width: 55.97%;
+  }
+}
+
+/****** gameplay ******/
+.sec#gameplay .conts .video-player {
+  transition: z-index 0.4s ease-in;
+  z-index: -1;
+}
+.sec#gameplay .conts .video-player.is-play {
+  z-index: 2;
+}
+
+/*-----------------------------------------
+	Theme/TOPICS
+-------------------------------------------*/
+/*---- CSS Hack ----*/
+.page-topics.ua-ie .article .page-lead span {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: #E3DDA4;
+  filter: initial;
+}
+
+/*-----------------------------------------
+	Theme/PRODUCT
+-------------------------------------------*/
+.page-product .page-logo {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+  visibility: hidden;
+}
+.page-product .page-logo.is-show {
+  opacity: 1;
+  visibility: visible;
+}
+.page-product .buy-btn {
+  display: none;
+}
+.page-product .conts [data-js-trigger=lineup] .link-btn-label {
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.page-product .conts [data-js-trigger=lineup].is-active {
+  pointer-events: none;
+}
+.page-product .conts [data-js-trigger=lineup].is-active .link-btn-label {
+  background: transparent;
+  color: #000;
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active span {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active img {
+  transition: visibility 0.2s ease-in-out;
+  visibility: hidden;
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-ps5 span {
+  background-image: url(../images/common/ps5_logo-bk.png);
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-ps4 span {
+  background-image: url(../images/common/ps4_logo-bk.png);
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-xboxseriesx span {
+  background-image: url(../images/common/xboxseriesx_logo-bk.png);
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-xboxone span {
+  background-image: url(../images/common/xboxone_logo-bk.png);
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-steam span {
+  background-image: url(../images/common/steam_logo-bk.png);
+}
+.page-product .conts [data-js-trigger=lineup][data-lineup-select=platform].is-active.lineup-select-list-stadia span {
+  background-image: url(../images/common/stadia_logo-bk.png);
+}
+.page-product .conts [data-js-elem=lineupCtr][data-lineup-edition=gold] [data-lineup-select-platform=stadia] {
+  filter: grayscale(1);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.page-product .conts [data-js-elem=lineup] .lineup-ttl {
+  backface-visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translate3d(0, 30px, 0);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  visibility: hidden;
+  will-change: transform;
+  z-index: -1;
+}
+.page-product .conts [data-js-elem=lineup][data-lineup-edition=gold] .lineup-ttl-gold {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts [data-js-elem=lineup][data-lineup-edition=standard] .lineup-ttl-standard {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts [data-js-elem=lineup][data-lineup-edition=winters] .lineup-ttl-winters {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts [data-js-elem=lineup][data-lineup-edition=bundle] .lineup-ttl-bundle {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts [data-js-elem=lineupItem] {
+  backface-visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translate3d(0, 30px, 0);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  visibility: hidden;
+  will-change: transform;
+  z-index: -1;
+}
+.page-product .conts [data-js-elem=lineupItem].is-select {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts [data-js-elem=privilege] {
+  backface-visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translate3d(0, 30px, 0);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  visibility: hidden;
+  will-change: transform;
+  z-index: -1;
+}
+.page-product .conts [data-js-elem=privilege].is-show {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.8s ease-in-out;
+  visibility: visible;
+  z-index: 1;
+}
+.page-product .conts.product-list .product-list-def .platform-list-item {
+  transition: background 0.4s ease-in-out;
+}
+.page-product .conts.product-list .product-list-def .platform-list-ps.platform-list-ps5.is-active {
+  background: #0248A0;
+}
+.page-product .conts.product-list .product-list-def .platform-list-ps.platform-list-ps4.is-active {
+  background: #0248A0;
+}
+.page-product .conts.product-list .product-list-def .platform-list-xbox.platform-list-xboxsx.is-active {
+  background: #107A10;
+}
+.page-product .conts.product-list .product-list-def .platform-list-xbox.platform-list-xboxone.is-active {
+  background: #107A10;
+}
+.page-product .conts.product-list .product-list-def .platform-list-steam.is-active {
+  background: #6A6A6A;
+}
+.page-product .conts.product-list .product-list-def .platform-list-stadia.is-active {
+  background: #DE3334;
+}
+.page-product .conts.product-list .product-list-def .tab-box {
+  display: none;
+}
+.page-product .conts.product-list .product-list-def .tab-box.is-show {
+  animation: fadeIn 0.8s ease-in-out;
+  display: block;
+}
+
+/*-----------------------------------------
+	Theme/LOCATIONS
+-------------------------------------------*/
+.page-locations #wrapper .sec-mv .locations-link-nav-item.is-current {
+  border: 1px solid #e3dda4;
+  pointer-events: none;
+  width: 51.21%;
+}
+@media screen and (min-width: 769px) {
+  .page-locations #wrapper .sec-mv .locations-link-nav-item.is-current {
+    width: 100%;
+  }
+}
+
+/*-----------------------------------------
+	Theme/mercenaries
+-------------------------------------------*/
+.page-mercenaries #wrapper .video-player {
+  transition: z-index 0.4s ease-in;
+  z-index: -1;
+}
+.page-mercenaries #wrapper .video-player.is-play {
+  z-index: 2;
+}

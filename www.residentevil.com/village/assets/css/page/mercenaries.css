@@ -1,0 +1,345 @@
+/************************************
+	Theme/Mercenaries
+************************************/
+.page-mercenaries {
+  color: #FFF;
+}
+.page-mercenaries #wrapper .sec {
+  margin-bottom: 24vw;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec {
+    margin-bottom: 12vw;
+  }
+}
+.page-mercenaries #wrapper .enclose-box {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2vw;
+  text-align: center;
+  width: 85.33%;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .enclose-box {
+    padding: 1vw;
+    position: absolute;
+    width: 34.37%;
+  }
+}
+.page-mercenaries #wrapper .enclose-box-inner {
+  padding: 2vw 0;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .enclose-box-inner {
+    padding: 0.25vw 0;
+  }
+}
+.page-mercenaries #wrapper .enclose-box .ttl {
+  color: #E3DDA4;
+  font-family: "Noto Serif", serif;
+  font-size: 0.28rem;
+  padding: 0.5em 0;
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .enclose-box .ttl {
+    font-size: 0.24rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .page-mercenaries #wrapper .enclose-box .ttl {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .enclose-box .ttl .ic-arrow {
+    display: none;
+  }
+}
+.page-mercenaries #wrapper .enclose-box .text {
+  font-size: 0.2rem;
+  line-height: 2;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .enclose-box .text {
+    font-size: 0.14rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .page-mercenaries #wrapper .enclose-box .text {
+    font-size: 14px;
+  }
+}
+.page-mercenaries #wrapper .sec-mv {
+  margin-bottom: 28vw;
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-mv {
+    margin-bottom: 8vw;
+  }
+}
+.page-mercenaries #wrapper .sec-mv-image {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+  line-height: 0;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .sec-mv-image {
+    order: 1;
+    margin-bottom: -60vw;
+  }
+}
+.page-mercenaries #wrapper .sec-mv .enclose-box {
+  width: 85.33%;
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .sec-mv .enclose-box {
+    order: 3;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-mv .enclose-box {
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56.25%;
+  }
+}
+.page-mercenaries #wrapper .sec-mv .enclose-box-inner {
+  padding: 2vw 0;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-mv .enclose-box-inner {
+    padding: 1vw 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-mv .enclose-box .text {
+    font-size: 0.16rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .page-mercenaries #wrapper .sec-mv .enclose-box .text {
+    font-size: 16px;
+  }
+}
+.page-mercenaries #wrapper .sec-about {
+  margin-bottom: 16vw;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about {
+    margin-bottom: 8vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .sec-about .conts {
+    padding: 0 8vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about .col-box-pc {
+    align-items: center;
+  }
+}
+.page-mercenaries #wrapper .sec-about .video-container {
+  cursor: pointer;
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about .video-container {
+    width: 56.77%;
+  }
+}
+.page-mercenaries #wrapper .sec-about .video-thumb {
+  line-height: 0;
+}
+.page-mercenaries #wrapper .sec-about .video-thumb img {
+  border: 1px solid transparent;
+  transition: border 0.4s ease-in-out;
+}
+.page-mercenaries #wrapper .sec-about .video-thumb a {
+  display: block;
+}
+.page-mercenaries #wrapper .sec-about .video-thumb a::after {
+  background-image: url(../../images/common/play_ic.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 2vw;
+  content: "";
+  display: block;
+  height: 12vw;
+  left: 2vw;
+  position: absolute;
+  width: 12vw;
+  z-index: 2;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about .video-thumb a::after {
+    bottom: 1vw;
+    height: 4vw;
+    left: 1vw;
+    width: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about .video-thumb:hover img {
+    border: 1px solid rgba(227, 221, 164, 0.6);
+  }
+}
+.page-mercenaries #wrapper .sec-about .video-player {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.page-mercenaries #wrapper .sec-about .video-player iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.page-mercenaries #wrapper .sec-about .video-player::before {
+  background: transparent;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.page-mercenaries #wrapper .sec-about .enclose-box {
+  position: relative;
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-about .enclose-box {
+    left: -4%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    width: 32.29%;
+    z-index: 3;
+  }
+}
+.page-mercenaries #wrapper .sec-about .enclose-box .ttl {
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+.page-mercenaries #wrapper .sec-about .enclose-box .text {
+  text-align: left;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts {
+    padding: 0 4vw;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .conts:not(:last-child) {
+  margin-bottom: 8vw;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-ttl {
+  font-size: 0.36rem;
+  margin: 0 5vw 2vw;
+  text-align: center;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-ttl {
+    font-size: 0.28rem;
+    margin: 0 5vw 1vw;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-ttl {
+    font-size: 28px;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-ttl::before, .page-mercenaries #wrapper .sec-gameplay .conts-ttl::after {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 525px 20px;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-ttl::before {
+  background-image: url(../../images/common/gameplay-contsttl_line-t.png);
+  margin-bottom: 0.5em;
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-ttl::after {
+  background-image: url(../../images/common/gameplay-contsttl_line-b.png);
+  margin-top: 0.5em;
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-lead {
+  line-height: 2;
+  margin-bottom: 6vw;
+  text-align: center;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-lead {
+    margin-bottom: 2vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .col-box-pc {
+    justify-content: space-between;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .col-box-pc .col {
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .col-box-pc .col {
+    width: 48.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .sec-gameplay .col-box-pc .col:not(:last-child) {
+    margin-bottom: 8vw;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .image {
+  line-height: 0;
+}
+.page-mercenaries #wrapper .sec-gameplay .enclose-box {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 80%;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .enclose-box {
+    width: 90%;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-strategic .image {
+  margin-bottom: -4vw;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-strategic .image {
+    margin-bottom: -2vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-difficulty {
+    padding: 0 5vw;
+  }
+}
+.page-mercenaries #wrapper .sec-gameplay .conts-difficulty .conts-ttl {
+  margin: 0 0 2vw;
+}
+@media screen and (min-width: 769px) {
+  .page-mercenaries #wrapper .sec-gameplay .conts-difficulty .conts-ttl {
+    margin: 0 0 1vw;
+  }
+}

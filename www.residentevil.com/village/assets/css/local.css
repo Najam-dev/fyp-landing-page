@@ -1,0 +1,1295 @@
+/************************************
+	Local
+************************************/
+/****** lang-us ******/
+.lang-us {
+  font-size: 0.26rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-us {
+    font-size: 0.18rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-us {
+    font-size: 18px;
+  }
+}
+.lang-us .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-us .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-us .sec#locations .image-list-item .image figcaption {
+  font-size: 0.3rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-us .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+.lang-us .sec#product .conts.product-list .link-btn-item {
+  font-size: 0.34rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#product .conts.product-list .link-btn-item {
+    font-size: 0.26rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-us .sec#product .conts.product-list .link-btn-item {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#spec .spec-list:nth-child(2) {
+    max-width: 500px;
+    width: 40.21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-us .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-us .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-us .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-us .sec#links .outbound .link-bnr:nth-child(1), .lang-us .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+.lang-us.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+  font-weight: 700;
+}
+@media screen and (min-width: 769px) {
+  .lang-us.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-us.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+
+/****** lang-uk ******/
+.lang-uk {
+  font-size: 0.26rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-uk {
+    font-size: 0.18rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-uk {
+    font-size: 18px;
+  }
+}
+.lang-uk .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-uk .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-uk .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-uk .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+.lang-uk .sec#product .conts.product-list .link-btn-item {
+  font-size: 0.34rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#product .conts.product-list .link-btn-item {
+    font-size: 0.26rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-uk .sec#product .conts.product-list .link-btn-item {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#spec .spec-list:nth-child(2) {
+    max-width: 500px;
+    width: 40.21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-uk .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-uk .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-uk .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk .sec#links .outbound .link-bnr:nth-child(1), .lang-uk .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-uk.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+
+/****** lang-en-asia ******/
+.lang-en-asia {
+  font-size: 0.26rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia {
+    font-size: 0.18rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-en-asia {
+    font-size: 18px;
+  }
+}
+.lang-en-asia .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-en-asia .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-en-asia .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-en-asia .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+.lang-en-asia .sec#product .conts.product-list .link-btn-item {
+  font-size: 0.34rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia .sec#product .conts.product-list .link-btn-item {
+    font-size: 0.26rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-en-asia .sec#product .conts.product-list .link-btn-item {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia .sec#spec .spec-list:nth-child(2) {
+    width: 51.08%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-en-asia.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+
+/****** lang-fr ******/
+.lang-fr .page-header .gnav-list-item {
+  font-size: 0.32rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .page-header .gnav-list-item {
+    font-size: 16px;
+  }
+}
+.lang-fr .sec#firstview .sec-inner {
+  width: 92.53%;
+}
+@media screen and (max-width: 768px) {
+  .lang-fr .sec#firstview .sec-inner {
+    max-width: 620px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#firstview .sec-inner {
+    width: 69.23%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#firstview .logo {
+    width: 48.66%;
+  }
+}
+.lang-fr .sec#firstview .release {
+  font-size: 0.6rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#firstview .release {
+    font-size: 0.44rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-fr .sec#firstview .release {
+    font-size: 44px;
+  }
+}
+.lang-fr .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+.lang-fr .sec#topics .reverse .text-box .ttl {
+  font-size: 0.4rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#topics .reverse .text-box .ttl {
+    font-size: 0.28rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-fr .sec#topics .reverse .text-box .ttl {
+    font-size: 28px;
+  }
+}
+.lang-fr .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-fr .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-fr .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-fr .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#spec .spec-list:nth-child(2) {
+    max-width: 560px;
+    width: 40.21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-fr .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-fr .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-fr .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr .sec#links .outbound .link-bnr:nth-child(1), .lang-fr .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-fr.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+.lang-fr.page-mac .sec-fv .lead {
+  line-height: 1.2;
+}
+
+/****** lang-it ******/
+.lang-it .page-header .gnav-list-item {
+  font-size: 0.32rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-it .page-header .gnav-list-item {
+    font-size: 16px;
+  }
+}
+.lang-it .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#topics .topics-bnr-label {
+    font-size: min(0.12rem, 16px);
+  }
+}
+.lang-it .sec#topics .reverse .text-box .ttl {
+  font-size: 0.4rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#topics .reverse .text-box .ttl {
+    font-size: 0.28rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-it .sec#topics .reverse .text-box .ttl {
+    font-size: 28px;
+  }
+}
+.lang-it .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-it .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#topics .ps-upgrade .link-text-btn-item {
+    max-width: 89.7435897436%;
+    width: 70%;
+  }
+}
+.lang-it .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-it .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+.lang-it .sec#product .conts.product-list .link-btn-item {
+  font-size: 0.34rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#product .conts.product-list .link-btn-item {
+    font-size: 0.26rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-it .sec#product .conts.product-list .link-btn-item {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#spec .spec-list:nth-child(2) {
+    max-width: 560px;
+    width: 40.21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-it .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-it .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-it .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it .sec#links .outbound .link-bnr:nth-child(1), .lang-it .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-it.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+.lang-it.page-mac .sec-fv .lead {
+  line-height: 1.2;
+}
+
+/****** lang-es ******/
+.lang-es .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+.lang-es .sec#topics .reverse .text-box .ttl {
+  font-size: 0.4rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#topics .reverse .text-box .ttl {
+    font-size: 0.28rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-es .sec#topics .reverse .text-box .ttl {
+    font-size: 28px;
+  }
+}
+.lang-es .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#topics .reverse .text-box .period {
+    background-size: 100% 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-es .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-es .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-es .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#spec .spec-list:nth-child(2) {
+    max-width: 620px;
+    width: 43.47%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-es .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-es .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-es .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es .sec#links .outbound .link-bnr:nth-child(1), .lang-es .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-es.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+.lang-es.page-mac .sec-fv .lead {
+  line-height: 1.2;
+}
+
+/****** lang-de ******/
+.lang-de .page-header .buy-btn-item a {
+  padding: 0.6em 0.5em;
+}
+@media screen and (min-width: 769px) {
+  .lang-de .page-header .buy-btn-item a {
+    padding: 0.5em;
+  }
+}
+.lang-de .sec#firstview .release {
+  font-size: 0.6rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#firstview .release {
+    font-size: 0.52rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-de .sec#firstview .release {
+    font-size: 52px;
+  }
+}
+.lang-de .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#topics .topics-bnr-ge .topics-bnr-bg-label {
+    line-height: 1.2;
+  }
+}
+.lang-de .sec#topics .reverse .text-box .ttl {
+  font-size: 0.4rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#topics .reverse .text-box .ttl {
+    font-size: 0.28rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-de .sec#topics .reverse .text-box .ttl {
+    font-size: 28px;
+  }
+}
+.lang-de .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#topics .reverse .text-box .period {
+    background-size: 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-de .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-de .sec#locations .image-list-item .image figcaption {
+  font-size: 0.38rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-de .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#spec .spec-list:nth-child(2) {
+    max-width: 940px;
+    width: 51.08%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-de .sec#spec .spec-list-platform .platform-xboxsx {
+    margin-bottom: 4%;
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-de .sec#spec .spec-list-platform .platform-xboxone {
+    margin-right: 12%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#links .official .link-text-btn-item {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lang-de .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#links .outbound .link-bnr:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#links .outbound .link-bnr:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de .sec#links .outbound .link-bnr:nth-child(1), .lang-de .sec#links .outbound .link-bnr:nth-child(2) {
+    margin-bottom: 2%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-de.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+
+/****** lang-pt-br ******/
+.lang-pt-br .page-header .gnav-list-item {
+  font-size: 0.32rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .page-header .gnav-list-item {
+    font-size: 16px;
+  }
+}
+.lang-pt-br .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+.lang-pt-br .sec#topics .reverse .text-box .ttl {
+  font-size: 0.4rem;
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .sec#topics .reverse .text-box .ttl {
+    font-size: 0.28rem;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-pt-br .sec#topics .reverse .text-box .ttl {
+    font-size: 28px;
+  }
+}
+.lang-pt-br .sec#topics .reverse .text-box .period {
+  background-size: cover;
+  font-size: 0.26rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .sec#topics .reverse .text-box .period {
+    background-size: 100% 105%;
+    font-size: 0.14rem;
+    padding: 0.2em 1em;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-pt-br .sec#topics .reverse .text-box .period {
+    font-size: 14px;
+  }
+}
+.lang-pt-br .sec#locations .image-list-item .image figcaption {
+  font-size: 0.3rem;
+  right: calc(2vw + 12px);
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .sec#locations .image-list-item .image figcaption {
+    bottom: calc(0.5em + 17px);
+    font-size: 0.3rem;
+    right: calc(0.5em + 17px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lang-pt-br .sec#locations .image-list-item .image figcaption {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .sec#spec .spec-list:nth-child(2) {
+    max-width: 620px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br .sec#links .official .link-text-btn-item {
+    width: 32%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br.page-product .conts-lineup .lineup-select-edition .lineup-select-list-item {
+    width: 21.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-pt-br.page-product .conts-lineup .lineup-select-edition .lineup-select-list-gold {
+    width: 31.5%;
+  }
+}
+
+/****** lang-hk ******/
+.lang-hk .page-header .gnav-list-item {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .page-header .gnav-sns .sns-list-ttl {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .sec-ttl {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .conts-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .text-grad {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .link-btn-item {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .langselect {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.lang-hk .sec#firstview .release {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .sec#topics .topics-bnr-vrmode .topics-bnr-lead {
+  font-family: "Noto Serif TC", serif;
+  letter-spacing: 0.15em;
+}
+.lang-hk .sec#topics .topics-bnr-ge .topics-bnr-lead {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#topics .topics-bnr-ge .topics-bnr-label {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#topics .topics-bnr-ge .topics-bnr-label,
+.lang-hk .sec#topics .topics-bnr-reverse .topics-bnr-label,
+.lang-hk .sec#topics .topics-bnr-vrmode .topics-bnr-label {
+  letter-spacing: 0.15em;
+}
+.lang-hk .sec#character .character-slider .slider-list-item .enclose-box .character-name {
+  font-family: "Cinzel", "Noto Serif TC", serif;
+}
+.lang-hk .sec#locations .image-list-item .image figcaption {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#locations .image-list-item.size-full .conts-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#gameplay .conts .gameplay-thumb-slider .ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#vrmode .conts-inner .conts-lead {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk .sec#goldedition .conts-inner .conts-sttl {
+  font-family: "Noto Serif TC", serif;
+  letter-spacing: 0.25em;
+}
+.lang-hk .sec#product .conts.product-reverse .product-reverse-item.title-reverse .detail-box .lead {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts .link-btn-item {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts .sec-ttl-ctr .link-btn-item {
+  font-family: "Noto Sans TC", sans-serif !important;
+}
+.lang-hk.page-product .conts-intro .intro-item-reverse .detail-box .lead {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-intro .intro-item-reverse .detail-box .link-btn-item {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-select-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-item-inner .lineup-detail .lineup-format-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-item-inner .lineup-content-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-item-inner .lineup-content .lineup-content-list-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-privilege-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-sttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-name {
+  font-family: "Noto Serif TC", serif;
+}
+@media screen and (min-width: 769px) {
+  .lang-hk.page-product .langselect.is-black .SumoSelect .CaptionCont {
+    color: #000;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-hk.page-product .langselect.is-black .SumoSelect .CaptionCont::before {
+    background: url(../images/common/earth_icon-bk.png) center no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-hk.page-product .langselect.is-black .SumoSelect.open .CaptionCont {
+    color: #FFF;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lang-hk.page-product .langselect.is-black .SumoSelect.open .CaptionCont::before {
+    background: url(../images/common/earth_icon.png) center no-repeat;
+    background-size: contain;
+  }
+}
+.lang-hk.page-locations #wrapper .locations-link-label {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-locations #wrapper .locations-link-layer .locations-link-layer-sub .image figcaption {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics .article .page-ttl-text {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics .article .page-lead {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics .article-sec .sttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics .article-sec .table-box .table-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics .article-sec .table-box table th {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-topics.page-topics-notice .conts-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+.lang-hk.page-top #notice .conts-ttl {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.lang-hk.page-notice #wrapper .conts-ttl {
+  font-family: "Noto Serif TC", serif;
+}
+
+/****** lang-cn ******/
+.lang-cn .page-header .gnav-list-item {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .page-header .gnav-sns .sns-list-ttl {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .sec-ttl {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .conts-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .text-grad {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .link-btn-item {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .langselect {
+  font-family: "Noto Sans SC", sans-serif;
+}
+.lang-cn .sec#firstview .release {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .sec#topics .topics-bnr-vrmode .topics-bnr-lead {
+  font-family: "Noto Serif SC", serif;
+  letter-spacing: 0.15em;
+}
+.lang-cn .sec#topics .topics-bnr-ge .topics-bnr-lead {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .sec#topics .topics-bnr-ge .topics-bnr-label {
+  font-family: "Noto Serif SC", serif;
+  letter-spacing: 0.15em;
+}
+.lang-cn .sec#topics .topics-bnr-reverse .topics-bnr-label {
+  letter-spacing: 0.15em;
+}
+.lang-cn .sec#character .character-slider .slider-list-item .enclose-box .character-name {
+  font-family: "Cinzel", "Noto Serif SC", serif;
+}
+.lang-cn .sec#locations .image-list-item .image figcaption {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .sec#locations .image-list-item.size-full .conts-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .sec#gameplay .conts .gameplay-thumb-slider .ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .sec#vrmode .conts-inner .conts-lead {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn .sec#goldedition .conts-inner .conts-sttl {
+  font-family: "Noto Serif SC", serif;
+  letter-spacing: 0.25em;
+}
+.lang-cn .sec#product .conts.product-reverse .product-reverse-item.title-reverse .detail-box .lead {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts .link-btn-item {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts .sec-ttl-ctr .link-btn-item {
+  font-family: "Noto Sans SC", sans-serif !important;
+}
+.lang-cn.page-product .conts-intro .intro-item-reverse .detail-box .lead {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-intro .intro-item-reverse .detail-box .link-btn-item {
+  font-family: "Noto Sans SC", sans-serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-select-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-item-inner .lineup-detail .lineup-format-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-item-inner .lineup-content-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-item-inner .lineup-content .lineup-content-list-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-privilege-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-sttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-name {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-locations #wrapper .locations-link-label {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-locations #wrapper .locations-link-layer .locations-link-layer-sub .image figcaption {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics .article .page-ttl-text {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics .article .page-lead {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics .article-sec .sttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics .article-sec .table-box .table-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics .article-sec .table-box table th {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-topics.page-topics-notice .conts-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+.lang-cn.page-top #notice .conts-ttl {
+  font-family: "Noto Sans SC", sans-serif;
+}
+.lang-cn.page-notice #wrapper .conts-ttl {
+  font-family: "Noto Serif SC", serif;
+}
+
+/****** lang-kr ******/
+.lang-kr .page-header .gnav-list-item {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .page-header .gnav-sns .sns-list-ttl {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .sec-ttl {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .conts-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .text-grad {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .link-btn-item {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .langselect {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.lang-kr .sec#firstview .release {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .sec#firstview .shipments-medal {
+  line-height: 1.2;
+}
+.lang-kr .sec#topics .topics-bnr-vrmode .topics-bnr-lead {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#topics .topics-bnr-ge .topics-bnr-lead {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#topics .topics-bnr-ge .topics-bnr-label {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#character .character-slider .slider-list-item .enclose-box .character-name {
+  font-family: "Cinzel", "Noto Serif KR", serif;
+}
+.lang-kr .sec#locations .image-list-item .image figcaption {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#locations .image-list-item.size-full .conts-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#gameplay .conts .gameplay-thumb-slider .ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#vrmode .conts-inner .conts-lead {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#goldedition .conts-inner .conts-sttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr .sec#product .conts.product-reverse .product-reverse-item.title-reverse .detail-box .lead {
+  font-family: "Noto Serif KR", serif;
+}
+@media screen and (min-width: 769px) {
+  .lang-kr .sec#spec .spec-list:nth-child(2) {
+    max-width: 560px;
+    width: 35.86%;
+  }
+}
+.lang-kr.page-product .conts .link-btn-item {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts .sec-ttl-ctr .link-btn-item {
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.lang-kr.page-product .conts-intro .intro-item-reverse .detail-box .lead {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-intro .intro-item-reverse .detail-box .link-btn-item {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-select-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-item-inner .lineup-detail .lineup-format-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-item-inner .lineup-content-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-item-inner .lineup-content .lineup-content-list-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-privilege-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-sttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-product .conts-lineup .lineup-privilege-detail .lineup-privilege-name {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-locations #wrapper .locations-link-label {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-locations #wrapper .locations-link-layer .locations-link-layer-sub .image figcaption {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics .article .page-ttl-text {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics .article .page-lead {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics .article-sec .sttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics .article-sec .table-box .table-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics .article-sec .table-box table th {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-topics.page-topics-notice .conts-ttl {
+  font-family: "Noto Serif KR", serif;
+}
+.lang-kr.page-top #notice .conts-ttl {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.lang-kr.page-notice #wrapper .conts-ttl {
+  font-family: "Noto Serif KR", serif;
+}
